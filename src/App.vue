@@ -3,6 +3,7 @@
     <MainHeader />
     <MainCarousel />
     <ServiceSection />
+    <ProductSection />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
   import MainHeader from './components/MainHeader.vue'
   import MainCarousel from './components/MainCarousel.vue'
   import ServiceSection from './components/ServiceSection.vue'
+  import ProductSection from './components/ProductSection.vue'
 
   export default {
     components: {
       MainHeader,
       MainCarousel,
-      ServiceSection
+      ServiceSection,
+      ProductSection
     }
   }
 </script>
