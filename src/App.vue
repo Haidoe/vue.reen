@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <MainHeader />
+    <MainCarousel />
   </div>
 </template>
 
 <script>
   import MainHeader from './components/MainHeader.vue'
+  import MainCarousel from './components/MainCarousel.vue'
 
   export default {
     components: {
-      MainHeader
+      MainHeader,
+      MainCarousel
     }
   }
 </script>
