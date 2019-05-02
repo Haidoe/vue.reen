@@ -4,8 +4,8 @@
 				<div class="slider-content">
 					<p class="header"> Hi, I'm a developer </p>
 					<p>
-						Created this online portfolio with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
-					</p>
+						Created this online portfolio with the professionally and lovingly designed REEN website template. 
+                    </p>
 					<button>GET STARTED NOW</button>
 				</div>
 			</div>

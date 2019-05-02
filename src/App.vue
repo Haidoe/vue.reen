@@ -4,6 +4,8 @@
     <MainCarousel />
     <ServiceSection />
     <ProductSection />
+    <WorkWithUsSection />
+    <MainFooter />
   </div>
 </template>
 
@@ -12,13 +14,17 @@
   import MainCarousel from './components/MainCarousel.vue'
   import ServiceSection from './components/ServiceSection.vue'
   import ProductSection from './components/ProductSection.vue'
+  import WorkWithUsSection from './components/WorkWithUsSection.vue'
+  import MainFooter from './components/MainFooter.vue'
 
   export default {
     components: {
       MainHeader,
       MainCarousel,
       ServiceSection,
-      ProductSection
+      ProductSection,
+      WorkWithUsSection,
+      MainFooter
     }
   }
 </script>
