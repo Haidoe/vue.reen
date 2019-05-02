@@ -2,17 +2,20 @@
   <div id="app">
     <MainHeader />
     <MainCarousel />
+    <ServiceSection />
   </div>
 </template>
 
 <script>
   import MainHeader from './components/MainHeader.vue'
   import MainCarousel from './components/MainCarousel.vue'
+  import ServiceSection from './components/ServiceSection.vue'
 
   export default {
     components: {
       MainHeader,
-      MainCarousel
+      MainCarousel,
+      ServiceSection
     }
   }
 </script>
