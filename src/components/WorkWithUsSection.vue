@@ -8,48 +8,56 @@
     </section>
 </template>
 
-<style scoped>
+<style lang="sass" scoped>
 
-    .offer {
-        background: #FFF;
-        height: 485px;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        box-sizing: border-box;
-        padding: 90px 0;
-    }
+    .offer 
+        background: #FFF
+        height: auto
+        text-align: center
+        justify-content: center
+        box-sizing: border-box
+        padding: 80px 0
+        
+        @media (max-width: 640px)
+            padding: 50px 15px
+        h2 
+            font-weight: normal
+            font-family: "Tahoma"
+            color: #506A85
+            font-size: 30pt
+            margin-top: 0
 
-    .offer h2 {
-        font-weight: normal;
-        font-family: "Tahoma";
-        color: #506A85;
-        font-size: 30pt;
-    }
+            @media (max-width: 640px)
+                font-size: 24pt
 
-    .offer p {
-        color: #73879C;
-        font-size: 15pt;
-        width: 700px;
-        margin: 10px auto;
-        margin-bottom: 30px;
-        font-family: "Source Sans Pro";
-    }
+        p 
+            color: #73879C
+            font-size: 15pt
+            width: 700px
+            margin: 10px auto
+            margin-bottom: 30px
+            
+            @media (max-width: 1024px)
+                width: 80%
+            
+            @media (max-width: 640px)
+                width: 90%
+                font-size: 12pt
 
-    .offer button {
-        height: 50px;
-        width: 160px;
-        background: #00BC9C;
-        color: #FFF;
-        border-style: none;
-        border-radius: 10px;
-        font-family: "Source Sans Pro";
-        font-weight: bold;
-    }
+        button 
+            height: 50px
+            width: 160px
+            background: #00BC9C
+            color: #FFF
+            border-style: none
+            border-radius: 10px
+            font-weight: bold
+            cursor: pointer
 
-    .offer button:hover {
-        cursor: pointer;
-        background: #17A78B;
-    }
+            &:hover
+                background: #17A78B
+            
+            @media (max-width: 640px)
+                width: 120px
 
 </style>
