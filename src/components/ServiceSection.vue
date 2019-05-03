@@ -1,6 +1,6 @@
 <template>
     <section class="services">
-        <div class="services-container">
+        <div class="container">
             
             <div class="upper-content">
                 <h1>
@@ -12,28 +12,29 @@
             </div>
 
             <div class="lower-content">
-                <div>
-                    <span id="passion"></span>
-                    <aside>
+                
+                <div class="lower-content-list">
+                    <div class="logo" id="passion"></div>
+                    <div class="content">
                         <h3> Passion </h3>
-                        <p> Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
-                    </aside>
+                        <p> Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor. </p>
+                    </div>
                 </div>
                 
-                <div >
-                    <span id="creativity"></span>
-                    <aside>
+                <div class="lower-content-list">
+                    <div class="logo" id="creativity"></div>
+                    <div class="content">
                         <h3> Creativity </h3>
                         <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
-                    </aside>
+                    </div>
                 </div>
 
-                <div>
-                    <span id="quality"></span>
-                    <aside>
+                <div class="lower-content-list">
+                    <div class="logo" id="quality"></div>
+                    <div class="content">
                         <h3> Quality </h3>
                         <p> Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
-                    </aside>
+                    </div>
                 </div>
             </div>
 
@@ -41,87 +42,83 @@
     </section>
 </template>
 
-<style scoped>
-    .services {
-        background: #FFF;
-        width: 100%;
-        height: 675px;
-        color: #506A85;
-    }
+<style lang="sass" scoped>
+    .services 
+        background: #FFF
+        height: 675px
+        
+        @media (max-width: 1310px)
+            min-height: 675px
+            height: auto
+            padding: 50px 0
 
-    .services-container {
-        width: 70%;
-        padding: 0 15px;
-        margin: 0 auto;
-        height: inherit;
-        text-align: center;
-        max-width: 1366px;
-    }
+        .container
+            display: flex
+            flex-direction: column
+            justify-content: center
+            
+            @media (max-width: 1310px)
+                padding: 0 20px
 
-    .services-container .upper-content {
-        width: 70%;
-        margin: 0 auto;
-        position: relative;
-        top: 120px;
-    }
+            .upper-content
+                text-align: center
+                width: 70%
+                margin: 0 auto
 
-    .services-container .upper-content h1 {
-        font-size: 35pt;
-        margin-top: 0;
-        margin-bottom: 5px;
-        font-weight: normal;
-    }
+                @media (max-width: 800px)
+                        width: 90%
+                
+                h1
+                    font-size: 35pt
+                    font-weight: normal
+                    margin: 0
 
-    .services-container .upper-content p {
-        font-size: 17pt;
-        font-family: "Source Sans Pro";
-        color: #73879C;
-        line-height: 1.5em;
-    }
+                    @media (max-width: 800px)
+                        font-size: 2.3em
+                p
+                    font-size: 17pt
+                    color: #73879C
 
-    .services-container .lower-content {
-        position: relative;
-        top: 140px;
-        height: 200px;
-        text-align: left;
-    }
+                    @media (max-width: 800px)
+                        font-size: 1.2em
+    
 
-    .services-container .lower-content div {
-        width: 33%;
-        display: inline-block;
-        height: inherit;
-    }
+            .lower-content 
+                text-align: left
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-around
+                margin-top: 50px
+                
+                @media (max-width: 1310px)
+                    justify-content: flex-start
+                @media (max-width: 1024px)
+                    justify-content: center
 
-    .services-container .lower-content div span {
-        display: inline-block;
-        width: 70px;
-        height: 80px;
-        background: url("../assets/images/services-logo-sprites.png") no-repeat;
-        /* float: left; */
-    }
+                .lower-content-list
+                    flex-basis: 30%
+                    display: flex
+                    justify-content: space-between
+                    
+                    @media (max-width: 1310px)
+                        flex-basis: 45%
+                    @media (max-width: 1024px)
+                        flex-basis: 90%
+                    .logo 
+                        width: 70px
+                        height: 80px
+                        background: url("../assets/images/services-logo-sprites.png") no-repeat
 
-    span#passion {
-        background-position: 4px 10px;
-    }
+                    .content
+                        flex-basis: 75%
+                                            
+                    #passion 
+                        background-position: 2px 10px
 
-    span#creativity {
-        background-position: -87px 10px;
-    }
+                    #creativity 
+                        background-position: -87px 10px
 
-    span#quality {
-        background-position: -178px 10px;
-    }
-
-    .services-container .lower-content div aside {
-        float: right;
-        text-align: left;
-        width: 300px;
-        height: inherit;
-    }
-
-    .services-container .lower-content div aside p {
-        font-family: "Source Sans Pro";
-        width: 90%;
-    }
+                    #quality 
+                        background-position: -182px 10px
 
 </style>
