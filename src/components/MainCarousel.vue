@@ -7,7 +7,7 @@
                 <h1> Hi, I'm a developer</h1>
 
                 <p>
-                    Created this online portfolio with the professionally and lovingly designed REEN website template. 
+                    Created this online portfolio with the professionally and lovingly designed website template. 
                 </p>
                 <button>GET STARTED NOW</button>
             </div>

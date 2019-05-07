@@ -7,7 +7,7 @@
                     Beautiful. Clean. Responsive.
                 </h1>
                 <p>
-                    REEN is a high-quality solution for those who want a beautiful website in no time. It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it doesn't matter. Your content will always looks its absolute best.
+                    Haidoe is a high-quality solution for those who want a beautiful website in no time. It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it doesn't matter. Your content will always looks its absolute best.
                 </p>
             </div>
 

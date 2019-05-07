@@ -2,14 +2,12 @@
     <footer class="lower">
         <div class="container">
 
-            <p> © 2014 REEN. All rights reserved. </p>
+            <p> © 2019 HAIDOE. All rights reserved. </p>
             
             <ul>
                 <li> Home </li>
-                <li> Portfolio </li>
-                <li> Blog </li>
                 <li> About </li>
-                <li> Services </li>
+                <li> Projects </li>
                 <li> Contact </li>
             </ul>
             

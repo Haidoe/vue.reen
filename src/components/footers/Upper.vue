@@ -4,7 +4,7 @@
             
             <div>
                 <h3> WHO WE ARE </h3>
-                <img src="../../assets/images/footer/footer-logo.png">
+                <img src="../../assets/images/footer/footer-logo.svg" class="footer-logo">
                 <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
                 <b> 
                     More about us 
@@ -32,7 +32,7 @@
                 
                 <p>
                     <font-awesome-icon icon="mobile-alt"></font-awesome-icon>
-                    +00 (123) 45678 90
+                    +63 (956) 935 3234
                 </p>
                 
                 <p>
@@ -68,6 +68,8 @@
             justify-content: center
             padding: 40px 15px
             
+            .footer-logo
+                width: 80%
             @media (max-width: 1024px)
                 flex-wrap: wrap
                 padding: 20px 15px
