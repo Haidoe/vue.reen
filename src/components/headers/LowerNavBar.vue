@@ -2,7 +2,7 @@
 	<nav>
 		<div class="container">
 			<div class="logo">
-				<img src="../../assets/images/header/logo.png" class="brand-logo">
+				<img src="../../assets/haidren-v2.svg">
 			</div>
 
 			<ul>
@@ -46,13 +46,14 @@
 			display: flex
 			align-items: center
 
+
 		img 
-			width: 161px
-			height: 40px
+			width: 225px
+			height: auto
 			cursor: pointer
 
 			@media only screen and (max-width: 800px)
-				width: 8em
+				width: 12em
 				height: auto
 		ul 
 			height: inherit
@@ -125,11 +126,8 @@
 			return	{
 				menuList: [
 					'HOME',
-					'PORTFOLIO',
-					'BLOG',
-					'PAGES',
-					'FEATURES',
-					'MEGA MENU',
+					'ABOUT',
+					'PROJECTS',
 					'CONTACT'
 				]
 			}
